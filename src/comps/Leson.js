@@ -1,17 +1,21 @@
 import React, { Component } from 'react';
-//import logo from './logo.svg';
-import '../Styles/App.css';
-import Navbar from './Navbar'
-import Footer from './Footer'
+import Styles from './everyPage/Styles'
+import Navbar from './everyPage/Navbar'
+import Footer from './everyPage/Footer'
 import Content from './HomeContent'
-
+import TodoList from './TodoList'
 class App extends Component {
     render() {
         return (
         <>
+            <Styles/>
             <Navbar/>
+
             <Content/>
+            <TodoList/>
+
             <Footer/>
+            
         </>
         );
     }

@@ -1,0 +1,13 @@
+body{
+    margin: 0px auto;
+    padding: 0px auto;
+    background: antiquewhite;
+}
+content{
+    padding: 5% 20% 10%;
+    display: inline-flex;
+
+}
+content >ol{
+    font-style: italic;
+}
