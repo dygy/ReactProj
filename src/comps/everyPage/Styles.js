@@ -5,8 +5,8 @@ import '../../Styles/Footer.css';
 import '../../Styles/todo.css';
 function Styles() {
     return (
-        <div>
-        </div>
+        <>
+        </>
     )
 }
 
